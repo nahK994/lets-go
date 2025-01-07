@@ -18,9 +18,9 @@ Learn the ropes of Go with simple problems:
 
 ### **Chapter 2: Conditional Logic**  
 Start making decisions! 🧠  
-- `04-leap-year-check` (Difficulty: Beginner)  
-- `05-student-grading` (Difficulty: Beginner)  
-- `06-maximum-of-two` (Difficulty: Beginner)
+- `04-maximum-of-two` (Difficulty: Beginner)
+- `05-leap-year-check` (Difficulty: Beginner)  
+- `06-student-grading` (Difficulty: Beginner)
 - `07-maximum-of-three` (Difficulty: Beginner)
 
 ---
