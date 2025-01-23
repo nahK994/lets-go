@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 func main() {
+	fmt.Println("Give me two number")
+	fmt.Print("first number: ")
 	var a int
+	fmt.Scan(&a)
+	fmt.Print("second number: ")
 	var b int
-	fmt.Printf("Hello! Please give me 2 numbers. I will tell you their summation\n")
-	fmt.Printf("First number: ")
-	fmt.Scanf("%d", &a)
-	fmt.Printf("Second number: ")
-	fmt.Scanf("%d", &b)
-	var c int = a + b
-
-	fmt.Printf("%d + %d = %d\n", a, b, c)
+	fmt.Scan(&b)
+	var c int
+	c = a + b
+	fmt.Println(a, "+", b, "=", c)
 }
