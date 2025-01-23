@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Give me a number; ")
-	var num int
-	fmt.Scanf("%d", &num)
-	var num2 int
-	num2 = num * 2
-	fmt.Printf("double of %d is %d\n", num, num2)
-
+	fmt.Println("Give me a number. I will tell you its double")
+	fmt.Print("Number: ")
+	var a int
+	fmt.Scan(&a)
+	var b int
+	b = 2 * a
+	fmt.Println(2, "x", a, "=", b)
 }
