@@ -21,12 +21,12 @@ Learn the ropes of Go with simple problems:
 ### **Chapter 2: Conditional Logic**  
 Start making decisions! 🧠  
 - `06-is-even` (Difficulty: Beginner)  
-- `07-divisibility-checker` (Difficulty: Beginner)  
-- `08-student-grading` (Difficulty: Beginner)  
-- `09-determine-bmi-category` (Difficulty: Beginner)  
-- `10-leap-year-check` (Difficulty: Beginner)  
-- `11-maximum-of-three` (Difficulty: Beginner)  
-- `12-odd-sum-and-even-product` (Difficulty: Beginner)  
+- `07-divisibility-checker` (Difficulty: Beginner)
+- `08-odd-sum-even-sum` (Difficulty: Beginner)    
+- `09-student-grading` (Difficulty: Beginner)  
+- `10-determine-bmi-category` (Difficulty: Beginner)  
+- `11-leap-year-check` (Difficulty: Beginner)  
+- `12-maximum-of-three` (Difficulty: Beginner)  
 
 ---
 
