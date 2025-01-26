@@ -16,15 +16,23 @@
 
 একটা ছোট্ট উদাহরণ দেইঃ 
 ```go
-var age int
-age = 25
+package main 
+
+func main() {
+    var age int
+    age = 25
+}
 ```
 ১ম লাইনে age নামে একটি ভ্যারিয়েবল declare করা হয়েছে। ২য় লাইনে age নামক ভ্যারিয়েবলে ভ্যালু ২৫ store/assign করা হয়েছে।
 
 ভ্যারিয়েবল declaration এর সময়, `var` কিওয়ার্ড দিয়ে শুরু হয়েছে। এরপর ভ্যারিয়েবিলের নাম age. এরপর ভারিয়েবলের ডাটাটাইপ `int`. এখানে, age ভ্যারিয়েবলের ভেতর সবসময় পুর্ণ সংখ্যা রাখা হবে তাই age এর ডাটাটাইপ `int` দেওয়া হয়েছে।<br><br>
 ```go
-var cgpa float32
-cgpa = 2.99
+package main 
+
+func main() {
+    var cgpa float32
+    cgpa = 2.99
+}
 ```
 এখানে, প্রথমে float32 টাইপ ডেটা রাখার জন্য cgpa নামের ভ্যারিয়েবল declare করা হয়েছে। তারপর cgpa ভারিয়েবলে 2.99 ভ্যালু assign করা হয়েছে।
 
@@ -32,65 +40,87 @@ cgpa = 2.99
 
 
 ```go
-// declare an integer type variable named “age”
-var age int = 25
+package main 
 
+func main() {
+    // declare an integer type variable named “age”
+    var age int = 25
 
-// declare a float32 type variable named “cgpa”
-var cgpa float32 = 2.99 // 🥺😭
+    // declare a float32 type variable named “cgpa”
+    var cgpa float32 = 2.99 // 🥺😭
 
-// declare a bool type variable named “isCodingFun”
-var isCodingFun bool = true
+    // declare a bool type variable named “isCodingFun”
+    var isCodingFun bool = true
 
-
-// declare a string type variable named “universityName”
-var universityName string = "SUST"
+    // declare a string type variable named “universityName”
+    var universityName string = "SUST"
+}
 ```
 
 শর্টকাটে ভ্যারিয়েবল declare করা যায় `:=` ব্যবহার করে। এক্ষেত্রে, Golang ভ্যারিয়েবলের ডেটাটাইপ নিজে থেকেই বুঝে নেয়।
 
 ```go
-age := 25
-cgpa := 2.99
-isCodingFun := true
-universityName := “SUST”
+package main 
+
+func main() {
+    age := 25
+    cgpa := 2.99
+    isCodingFun := true
+    universityName := “SUST”
+}
 ``` 
 
 ### আরও একটু ভ্যারিয়েবলঃ
 
 ```go
-var a int = 5
-var b int
-b = a
+package main 
+
+func main() {
+    var a int = 5
+    var b int
+    b = a
+}
 ```
 এখানে, প্রথম লাইনে আমরা a নামে একটা int টাইপ ভ্যারিয়েবল declare করে তাতে ভ্যালু আকারে ৫ assign করেছি। ২য় লাইনে, আমরা b নামে একটা int টাইপ ভ্যারিয়েবল declare করেছি। তৃতীয় লাইনে, a-তে assign করা ভ্যালু(৫) b-তেও assign করলাম। এখন, a আর b উভয়ের ভ্যালুই ৫।
 
 ```go
-var a int = 5
-var b int
-b = a*a
+package main 
+
+func main() {
+    var a int = 5
+    var b int
+    b = a*a
+}
 ```
 এখানে, শুধু ৩য় লাইনে আমরা b-এ ২৫(যেহেতু, a এর ভ্যালু ৫। তাই axa মানে ৫x৫=২৫) সেভ করেছি। এখন এর ভ্যালু ৫ আর b এর ভ্যালু ২৫।
 
 ```go
-var a int = 5
-var b int = 15
-var c int = a+b
+package main 
+
+func main() {
+    var a int = 5
+    var b int = 15
+    var c int = a+b
+}
 ```
 এখানে, a আর b এর ভ্যালু যথাক্রমে ৫ আর ১৫। c এর ভ্যালু এদের যোগফল ২০।
 
 
 এবার ছোট্ট একটা কাজ দিয়ে চলে যাব।
 ```go
-var a int = 5
-var b int = 15
-var c int
+package main 
 
-c=a
-a=b
-b=c
+func main() {
+    var a int = 5
+    var b int = 15
+    var c int
 
-// 15 is stored in a and 5 is stored in b.. But how?? You figure it out. 
+    c=a
+    a=b
+    b=c
+
+    // 15 is stored in a and 5 is stored in b.. But how?? You figure it out.
+} 
 ```
 
 Roger, over and out.....
