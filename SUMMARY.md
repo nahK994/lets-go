@@ -4,5 +4,5 @@
 * [প্রোগ্রামিং কি](what_is_programming/what-is-programming.md)
 * [শুরুর কিছু কথা](starting-speech.md)
 * [ভ্যারিয়েবল আর ডাটাটাইপ](datatypes-and-variables.md)
-* [কন্ডিশনাল স্টেটমেন্ট](conditional-statements.md)
+* [কন্ডিশনাল স্টেটমেন্ট](conditional-statements/conditional-statements.md)
 
