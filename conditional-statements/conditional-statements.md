@@ -185,7 +185,10 @@ func main() {
 - যদি সত্য হয় তাহলে, সবচেয়ে বড় b
 - নাহলে, সবচেয়ে বড় c
 
-![Flow Chart](./find_max.jpg "Flow Chart")
+<div style="display: flex; justify-content: center; margin-bottom:20px;">
+<img src="./find_max.jpg" alt="Flow Chart" width="500" height="600">
+</div>
+
 
 ```go
 package main
@@ -225,7 +228,9 @@ func main() {
         * যদি না মেলে, তাহলে ***Leap year***.
     * যদি না মেলে, তাহলে ***Leap year***.
 
-![Flow Chart](./check_leap_year.jpg "Flow Chart")
+<div style="display: flex; justify-content: center; margin-bottom:20px;">
+<img src="./check_leap_year.jpg" alt="Flow Chart" width="500" height="600">
+</div>
 
 ```go
 package main
