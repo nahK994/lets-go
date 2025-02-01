@@ -19,7 +19,7 @@
 নিচের ফ্লোচার্টটি দেখলে বুঝতে কিছুটা সহজ হবে। 🗂️
 
 <div style="display: flex; justify-content: center; margin-bottom:20px;">
-<img src="./flow_chart.jpg" alt="Flow Chart" width="200" height="400">
+<img src="./flow_chart.jpg" alt="Flow Chart" width="300" height="600">
 </div>
 
 
