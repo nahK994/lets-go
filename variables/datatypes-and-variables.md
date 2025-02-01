@@ -57,6 +57,8 @@ func main() {
 }
 ```
 
+এখানে `//` দেওয়া অংশকে বলে কোড কমেন্ট করা। কোড কমেন্ট করা মূলত কোডের ভেতরের কোনো অংশের ব্যাখ্যা দেওয়ার জন্য ব্যবহার করা হয়। Program execution-এ এর কোনো ভূমিকা থাকে না।
+
 শর্টকাটে ভ্যারিয়েবল declare করা যায় `:=` ব্যবহার করে। এক্ষেত্রে, Golang ভ্যারিয়েবলের ডেটাটাইপ নিজে থেকেই বুঝে নেয়।
 
 ```go
@@ -119,9 +121,15 @@ func main() {
     a=b
     b=c
 
-    //Now, 15 is stored in a and 5 is stored in b.. But how?? You figure it out.
+    //Now, 15 is stored in a and 5 is stored in b.. But how?? You figure it out
+    // At first, you try it out by yourself. Then, look at the figure given below
 } 
 ```
+
+<div style="display: flex; justify-content: center; margin-bottom:20px;">
+<img src="./explanation.jpg" alt="Flow Chart" width="400" height="400">
+</div>
+
 ### ভ্যারিয়েবল ইনপুট এবং আউটপুটঃ
 ইউজারের কাছ থেকে ভ্যারিয়েবলের ভ্যালু ইনপুট এবং ইউজারের কাছে ভ্যারিয়েবলের ভ্যালু আউটপুট দেওয়ার জন্য `fmt` প্যাকেজের ফাংশন যথাক্রমে Scan আর Print. নিচের কোডটি দেখলে বুঝতে সুবিধা হবে।
 ```go
@@ -137,6 +145,10 @@ func main() {
 }
 ```
 উপরোক্ত কোড রান করলে প্রথমেই কমান্ড প্রম্পটে প্রিন্ট করবে ***Tell me your name:&nbsp;***. তারপর নাম ইনপুট নেওয়ার জন্য অপেক্ষা করবে। মনে করুন, ইনপুট দিলেন Chacha Chaudhary. নাম ইনপুট দিয়ে Enter press করলে বলবে, ***Hello, Chacha Chaudhary***
+
+<div style="display: flex; justify-content: center; margin-bottom:20px;">
+<img src="./Chacha_Chaudhary.jpg" alt="Flow Chart" width="150" height="150">
+</div>
 
 `Scan` ফাংশনের সাহায্যে ইনপুট নেওয়ার সময় ভ্যারিয়েবলের সামনে `&` দিতে হয়।
 
