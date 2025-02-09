@@ -1,4 +1,6 @@
-মনে করুন, আপনাকে একটা প্রোগ্রাম লিখতে বোলা হল যেটা রান করলে `Hello World!` প্রিন্ট করবেন। আপনি নিশ্চয় এরকম কোড করে ফেলবেনঃ
+### Golang-এ লুপ 
+সহজ কথায়, লুপ মানে বনবন করে ঘোরা। প্রোগামিং-য়ের ভাষায়, এক/একাধিক instruction বারবার execute হতে থাকাকে `লুপ` বলে। 
+মনে করুন, আপনাকে একটা প্রোগ্রাম লিখতে বলা হল যেটা রান করলে `Hello World!` প্রিন্ট করবেন। আপনি নিশ্চয় এরকম কোড করে ফেলবেনঃ
 ```go
 package main
 import "fmt"
@@ -28,17 +30,25 @@ func main() {
 <div style="display: flex; justify-content: center; margin-bottom:20px;">
 <img src="./We_Dont_Do_That_Here.jpg" alt="Flow Chart" width="300" height="200">
 </div>
+প্রথমে আমরা একটা ফ্লো-চার্টের মাধ্যমে এই সমস্যার সমাধান বোঝার চেষ্টা করি। 
+<div style="display: flex; justify-content: center; margin-bottom:20px;">
+<img src="./loop_flow_chart1.jpg" alt="Flow Chart" width="450" height="600">
+</div>
+উপরের ফ্লো-চার্টে `i` নামে একটা ভ্যারিয়েবল declare করে তাতে ১ assign করা হয়েছে। এরপর, একটা লুপের ভেতর `Hello World` প্রিন্ট করা হচ্ছে আর সাথে সাথে `i` এর ভ্যালু ১ করে বাড়ানো হচ্ছে।
 
+যতক্ষণ, `i` এর ভ্যালু  ১০০০০ এর সমান বা ছোট থাকে(i<=১০০০০), ততক্ষণ লুপটি চলবে। যখন, `i` এর ভ্যালু ১০০০১ হবে (অর্থ্যাৎ, i<=১০০০০ শর্তটি মিথ্যা হবে), তখন লুপ থেকে বের হয়ে প্রোগ্রামের execution শেষ হয়ে যাবে।  
 ```go
 package main
 
 import "fmt"
 
 func main() {
-	i := 1
+	var i int
+i = 1
 	for i <= 10000 {
 		fmt.Print("Hello World!\n")
 		i++
 	}
 }
 ```
+
