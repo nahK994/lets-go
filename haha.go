@@ -4,9 +4,12 @@ import "fmt"
 
 func main() {
 	var i int
-	i = 1
-	for i <= 10000 {
-		fmt.Print(i, "\n")
-		i++
+	var j int
+	fmt.Scan(&i)
+
+	j = 1
+	for j <= 10 {
+		fmt.Print(i, "x", j, "=", i*j, "\n")
+		j++
 	}
 }

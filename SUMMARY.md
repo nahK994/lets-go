@@ -6,4 +6,5 @@
 * [ভ্যারিয়েবল আর ডাটাটাইপ](variables/datatypes-and-variables.md)
 * [কন্ডিশনাল স্টেটমেন্ট](conditional-statements/conditional-statements.md)
 * [লুপ](loops/loops.md)
-
+    - [আরেকটু লুপ](prime_number.md)
+    - [আরও আরেকটু, পিলিজ্জ 🥺](permutation.md)
