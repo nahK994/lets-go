@@ -50,7 +50,7 @@ import "fmt"
 
 func main() {
 	var i int
-i = 1
+    i = 1
 	for i <= 10000 {
 		fmt.Print("Hello World!\n")
 		i++
