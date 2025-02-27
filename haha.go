@@ -1,15 +1,31 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
-	var i int
-	var j int
-	fmt.Scan(&i)
+	var n int
+	fmt.Scan(&n)
+	var isPrime bool = true
+	if n < 2 {
+		isPrime = false
+	} else if n == 2 {
+		isPrime = true
+	} else if n%2 == 0 {
+		isPrime = false
+	} else {
+		for i := 3; i <= int(math.Sqrt(float64(n))); i += 2 {
+			if n%i == 0 {
+				isPrime = false
+			}
+		}
+	}
 
-	j = 1
-	for j <= 10 {
-		fmt.Print(i, "x", j, "=", i*j, "\n")
-		j++
+	if isPrime {
+		fmt.Println("Prime")
+	} else {
+		fmt.Println("Not Prime")
 	}
 }
